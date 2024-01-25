@@ -1,0 +1,10 @@
+package com.optimization.objects.model;
+
+public enum OptimizatioStateEnum {
+	WAIT_FOR_REGISTRATIONS,
+	WAIT_FOR_INPUTS, 
+	CUTT_OFF_TIME_REACHED, 
+	OPTIMIZATION_RUNNING, 
+	WAITING_FOR_REJECTS, 
+	WAITING_FOR_NM_CONFIRMATION
+}
